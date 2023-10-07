@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "87ff3764-59d7-4033-adce-c208a4d5bd2f", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "83ec0fcf-57a3-44d5-b285-647ead33be73", 
+    "key": "performprecleanuplink", 
+    "name": "Perform Pre Cleanup (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}
