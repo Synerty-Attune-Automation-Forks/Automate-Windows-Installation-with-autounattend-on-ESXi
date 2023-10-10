@@ -1,0 +1,44 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "cbd6d5ab-afbd-4bf4-82d4-95859d34966e", 
+    "isBlueprint": true, 
+    "key": "autounattendwindows10win10uefiwinpeisoonmacosorlinuxworkerforesxi", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "performprecleanuplink"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "performdeployesxidriverstoadropdirectorylink"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "createwin10uefiautounattendwinpeisoonmacosorlinuxworker"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "buildwin10uefivirtualmachineonesxilink"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "winrmhttpswait60s"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "performpostcleanuplink"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "performtestwin10uefinodelink"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "performtestifvmwaredriversinstalledlink"
+        }
+    ], 
+    "name": "Autounattend Windows 10 (Win10) UEFI WinPE ISO on macOS or Linux Worker for ESXi", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

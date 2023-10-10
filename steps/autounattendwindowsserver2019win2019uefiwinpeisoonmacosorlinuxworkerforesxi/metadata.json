@@ -2,12 +2,12 @@
     "actionOnStepFail": "stop", 
     "concurrency": 1, 
     "enabled": true, 
-    "externalUuid4": "4dc186ab-31ca-403d-9918-f1399f53451a", 
+    "externalUuid4": "42752c64-8a95-4304-83dd-edc2c8ed2a8c", 
     "isBlueprint": true, 
-    "key": "autounattendwindowsserver2019win2019uefisingleisoonmacosorlinuxworkerforesxi", 
+    "key": "autounattendwindowsserver2019win2019uefiwinpeisoonmacosorlinuxworkerforesxi", 
     "links": [
         {
-            "order": 0, 
+            "order": 50, 
             "stepKey": "performprecleanuplink"
         }, 
         {
@@ -16,10 +16,10 @@
         }, 
         {
             "order": 250, 
-            "stepKey": "createwin2019uefiautounattendsingleisoonmacosorlinuxworkerlink"
+            "stepKey": "createwin2019uefiautounattendwinpeisoonmacosorlinuxworkerlink"
         }, 
         {
-            "order": 350, 
+            "order": 300, 
             "stepKey": "buildwindowsserveruefivirtualmachineonesxilink"
         }, 
         {
@@ -31,14 +31,14 @@
             "stepKey": "performpostcleanuplink"
         }, 
         {
-            "order": 700, 
+            "order": 650, 
             "stepKey": "performtestwin2019uefinodelink"
         }, 
         {
-            "order": 750, 
+            "order": 700, 
             "stepKey": "performtestifvmwaredriversinstalledlink"
         }
     ], 
-    "name": "Autounattend Windows Server 2019 (Win2019) UEFI Single ISO on macOS or Linux Worker for ESXi", 
+    "name": "Autounattend Windows Server 2019 (Win2019) UEFI WinPE ISO on macOS or Linux Worker for ESXi", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }
