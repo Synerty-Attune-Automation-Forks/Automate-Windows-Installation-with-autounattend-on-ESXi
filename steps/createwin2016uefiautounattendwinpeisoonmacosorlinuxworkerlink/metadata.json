@@ -79,6 +79,15 @@
             "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
             "parentParameterKey": null, 
             "parentStaticTextValue": "windows2016"
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "021b440d-1646-40df-9c3b-5129dbaf07e8", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "true"
         }
     ], 
     "projectName": "", 
