@@ -12,31 +12,39 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "performdeployesxidriverstoadropdirectorylink"
+            "stepKey": "performdeleteisosonesxihost"
         }, 
         {
             "order": 100, 
-            "stepKey": "createwin10uefiautounattendsingleisoonmacosorlinuxworkerlink"
+            "stepKey": "performdeployesxidriverstoadropdirectorylink"
         }, 
         {
             "order": 150, 
-            "stepKey": "buildwin10uefivirtualmachineonesxilink"
+            "stepKey": "createwin10uefiautounattendsingleisoonmacosorlinuxworkerlink"
         }, 
         {
             "order": 200, 
-            "stepKey": "winrmhttpswait60s"
+            "stepKey": "buildwin10uefivirtualmachineonesxilink"
         }, 
         {
             "order": 250, 
-            "stepKey": "performpostcleanuplink"
+            "stepKey": "winrmhttpswait60s"
         }, 
         {
             "order": 300, 
-            "stepKey": "performtestwin10uefinodelink"
+            "stepKey": "performpostcleanuplink"
         }, 
         {
             "order": 350, 
+            "stepKey": "performtestwin10uefinodelink"
+        }, 
+        {
+            "order": 400, 
             "stepKey": "performtestifvmwaredriversinstalledlink"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "performdeleteisosonesxihost"
         }
     ], 
     "name": "Autounattend Windows 10 (Win10) UEFI Single ISO on macOS or Linux Worker for ESXi", 

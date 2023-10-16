@@ -12,31 +12,39 @@
         }, 
         {
             "order": 100, 
-            "stepKey": "performdeployesxidriverstoadropdirectorylink"
+            "stepKey": "performdeleteisosonesxihost"
         }, 
         {
             "order": 150, 
-            "stepKey": "createwin2016biosautounattendwinpeisoonmacosorlinuxworkerlink"
+            "stepKey": "performdeployesxidriverstoadropdirectorylink"
         }, 
         {
             "order": 200, 
-            "stepKey": "buildwindowsserverbiosvirtualmachineonesxilink"
+            "stepKey": "createwin2016biosautounattendwinpeisoonmacosorlinuxworkerlink"
         }, 
         {
             "order": 250, 
-            "stepKey": "winrmhttpswait60s"
+            "stepKey": "buildwindowsserverbiosvirtualmachineonesxilink"
         }, 
         {
             "order": 300, 
-            "stepKey": "performpostcleanuplink"
+            "stepKey": "winrmhttpswait60s"
         }, 
         {
             "order": 350, 
-            "stepKey": "performtestwin2016biosnodelink"
+            "stepKey": "performpostcleanuplink"
         }, 
         {
             "order": 400, 
+            "stepKey": "performtestwin2016biosnodelink"
+        }, 
+        {
+            "order": 450, 
             "stepKey": "performtestifvmwaredriversinstalledlink"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "performdeleteisosonesxihost"
         }
     ], 
     "name": "Autounattend Windows Server 2016 (Win2016) BIOS WinPE ISO on macOS or Linux Worker for ESXi", 

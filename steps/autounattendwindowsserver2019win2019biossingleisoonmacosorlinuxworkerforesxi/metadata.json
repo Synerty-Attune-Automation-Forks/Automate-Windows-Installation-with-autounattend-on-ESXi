@@ -11,6 +11,10 @@
             "stepKey": "performprecleanuplink"
         }, 
         {
+            "order": 50, 
+            "stepKey": "performdeleteisosonesxihost"
+        }, 
+        {
             "order": 100, 
             "stepKey": "performdeployesxidriverstoadropdirectorylink"
         }, 
@@ -37,6 +41,10 @@
         {
             "order": 700, 
             "stepKey": "performtestifvmwaredriversinstalledlink"
+        }, 
+        {
+            "order": 750, 
+            "stepKey": "performdeleteisosonesxihost"
         }
     ], 
     "name": "Autounattend Windows Server 2019 (Win2019) BIOS Single ISO on macOS or Linux Worker for ESXi", 

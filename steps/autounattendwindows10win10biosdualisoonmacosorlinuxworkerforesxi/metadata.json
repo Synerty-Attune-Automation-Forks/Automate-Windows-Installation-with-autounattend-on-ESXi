@@ -12,6 +12,10 @@
         }, 
         {
             "order": 50, 
+            "stepKey": "performdeleteisosonesxihost"
+        }, 
+        {
+            "order": 100, 
             "stepKey": "performdeployesxidriverstoadropdirectorylink"
         }, 
         {
@@ -37,6 +41,10 @@
         {
             "order": 400, 
             "stepKey": "performtestifvmwaredriversinstalledlink"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "performdeleteisosonesxihost"
         }
     ], 
     "name": "Autounattend Windows 10 (Win10) BIOS Dual ISO on macOS or Linux Worker for ESXi", 

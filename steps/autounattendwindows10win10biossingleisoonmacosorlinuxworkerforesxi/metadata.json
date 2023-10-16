@@ -12,10 +12,14 @@
         }, 
         {
             "order": 100, 
-            "stepKey": "performdeployesxidriverstoadropdirectorylink"
+            "stepKey": "performdeleteisosonesxihost"
         }, 
         {
             "order": 150, 
+            "stepKey": "performdeployesxidriverstoadropdirectorylink"
+        }, 
+        {
+            "order": 200, 
             "stepKey": "createwin10biosautounattendsingleisoonmacosorlinuxworkerlink"
         }, 
         {
@@ -37,6 +41,10 @@
         {
             "order": 600, 
             "stepKey": "performtestifvmwaredriversinstalledlink"
+        }, 
+        {
+            "order": 650, 
+            "stepKey": "performdeleteisosonesxihost"
         }
     ], 
     "name": "Autounattend Windows 10 (Win10) BIOS Single ISO on macOS or Linux Worker for ESXi", 
