@@ -31,10 +31,6 @@
             "stepKey": "winrmhttpswait60s"
         }, 
         {
-            "order": 350, 
-            "stepKey": "performpostcleanuplink"
-        }, 
-        {
             "order": 400, 
             "stepKey": "performtestwin10uefinodelink"
         }, 
@@ -45,6 +41,10 @@
         {
             "order": 500, 
             "stepKey": "performdeleteisosonesxihost"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "performpostcleanuplink"
         }
     ], 
     "name": "Autounattend Windows 10 (Win10) UEFI WinPE ISO on macOS or Linux Worker for ESXi", 

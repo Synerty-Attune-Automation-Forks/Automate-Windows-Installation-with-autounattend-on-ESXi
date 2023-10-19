@@ -31,10 +31,6 @@
             "stepKey": "winrmhttpswait60s"
         }, 
         {
-            "order": 500, 
-            "stepKey": "performpostcleanuplink"
-        }, 
-        {
             "order": 700, 
             "stepKey": "performtestwin2022biosnodelink"
         }, 
@@ -45,6 +41,10 @@
         {
             "order": 800, 
             "stepKey": "performdeleteisosonesxihost"
+        }, 
+        {
+            "order": 850, 
+            "stepKey": "performpostcleanuplink"
         }
     ], 
     "name": "Autounattend Windows Server 2022 (Win2022) BIOS Single ISO on macOS or Linux Worker for ESXi", 

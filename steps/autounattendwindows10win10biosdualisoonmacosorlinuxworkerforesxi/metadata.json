@@ -31,10 +31,6 @@
             "stepKey": "winrmhttpswait60s"
         }, 
         {
-            "order": 300, 
-            "stepKey": "performpostcleanuplink"
-        }, 
-        {
             "order": 350, 
             "stepKey": "performtestwin10biosnodelink"
         }, 
@@ -45,6 +41,10 @@
         {
             "order": 450, 
             "stepKey": "performdeleteisosonesxihost"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "performpostcleanuplink"
         }
     ], 
     "name": "Autounattend Windows 10 (Win10) BIOS Dual ISO on macOS or Linux Worker for ESXi", 

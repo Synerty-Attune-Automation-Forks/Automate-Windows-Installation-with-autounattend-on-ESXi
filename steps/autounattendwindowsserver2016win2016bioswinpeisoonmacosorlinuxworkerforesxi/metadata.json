@@ -31,10 +31,6 @@
             "stepKey": "winrmhttpswait60s"
         }, 
         {
-            "order": 350, 
-            "stepKey": "performpostcleanuplink"
-        }, 
-        {
             "order": 400, 
             "stepKey": "performtestwin2016biosnodelink"
         }, 
@@ -45,6 +41,10 @@
         {
             "order": 500, 
             "stepKey": "performdeleteisosonesxihost"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "performpostcleanuplink"
         }
     ], 
     "name": "Autounattend Windows Server 2016 (Win2016) BIOS WinPE ISO on macOS or Linux Worker for ESXi", 

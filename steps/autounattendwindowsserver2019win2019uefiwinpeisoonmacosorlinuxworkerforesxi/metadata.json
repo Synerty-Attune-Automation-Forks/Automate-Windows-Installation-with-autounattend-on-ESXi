@@ -31,10 +31,6 @@
             "stepKey": "winrmhttpswait60s"
         }, 
         {
-            "order": 500, 
-            "stepKey": "performpostcleanuplink"
-        }, 
-        {
             "order": 650, 
             "stepKey": "performtestwin2019uefinodelink"
         }, 
@@ -45,6 +41,10 @@
         {
             "order": 750, 
             "stepKey": "performdeleteisosonesxihost"
+        }, 
+        {
+            "order": 800, 
+            "stepKey": "performpostcleanuplink"
         }
     ], 
     "name": "Autounattend Windows Server 2019 (Win2019) UEFI WinPE ISO on macOS or Linux Worker for ESXi", 
