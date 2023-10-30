@@ -1,0 +1,25 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "6ad6762c-acdb-48c0-9686-45dfeddfa2a2", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "1c7b9bb0-a95d-467d-9368-2d1e40ff9214", 
+    "key": "performdeleteisosonesxihostwithmacosorlinuxworkerlink", 
+    "name": "Perform Delete ISOs on ESXi Host with macOS or Linux Worker (link)", 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Server", 
+            "childParameterUuid": "7116171b-6cab-412b-b2c3-cdbf063a7ace", 
+            "childProjectName": null, 
+            "childProjectUuid": "8140ab94-a4a9-481f-8ab1-9ee055ef78be", 
+            "parentParameterKey": "newosnode", 
+            "parentStaticTextValue": null
+        }
+    ], 
+    "projectName": "", 
+    "projectUuid": "8140ab94-a4a9-481f-8ab1-9ee055ef78be", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

@@ -59,7 +59,12 @@ This Project contains the following Blueprints.
 
 ### Autounattend Windows 10 (Win10) BIOS Single ISO on macOS or Linux Worker for ESXi
 
-1. Builds a Win10 BIOS Single ISO for macOS or Linux.
+1. Builds a Win10 BIOS Single ISO on macOS or Linux.
+2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
+
+### Autounattend Windows 10 (Win10) BIOS Single ISO on Windows Worker for ESXi
+
+1. Builds a Win10 BIOS Single ISO on Windows worker.
 2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
 
 ### Autounattend Windows 10 (Win10) BIOS WinPE ISO on macOS or Linux Worker for ESXi

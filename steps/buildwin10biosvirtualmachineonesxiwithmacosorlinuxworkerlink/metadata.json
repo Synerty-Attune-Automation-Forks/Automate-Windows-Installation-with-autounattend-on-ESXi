@@ -5,8 +5,8 @@
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "403baff2-2a7a-47e2-bb27-322bdabf012a", 
-    "key": "buildwin10biosvirtualmachineonesxilink", 
-    "name": "Build Win10 BIOS Virtual Machine on ESXi (link)", 
+    "key": "buildwin10biosvirtualmachineonesxiwithmacosorlinuxworkerlink", 
+    "name": "Build Win10 BIOS Virtual Machine on ESXi with macOS or Linux Worker (link)", 
     "parameterMap": [
         {
             "childParameterName": null, 

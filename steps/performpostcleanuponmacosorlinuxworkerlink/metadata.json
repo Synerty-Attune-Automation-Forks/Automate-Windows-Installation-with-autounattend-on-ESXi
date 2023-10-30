@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "87ff3764-59d7-4033-adce-c208a4d5bd2f", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "ad914cdc-2655-499d-965d-b6f832b36e08", 
+    "key": "performpostcleanuponmacosorlinuxworkerlink", 
+    "name": "Perform Post Cleanup  on macOS or Linux Worker (Link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

@@ -8,15 +8,15 @@
     "links": [
         {
             "order": 50, 
-            "stepKey": "performprecleanuplink"
+            "stepKey": "performprecleanuponmacosorlinuxworkerlink"
         }, 
         {
             "order": 100, 
-            "stepKey": "performdeleteisosonesxihost"
+            "stepKey": "performdeleteisosonesxihostwithmacosorlinuxworkerlink"
         }, 
         {
             "order": 150, 
-            "stepKey": "performdeployesxidriverstoadropdirectorylink"
+            "stepKey": "performdeployesxidriverstoadropdirectorywithmacosorlinuxworkerlink"
         }, 
         {
             "order": 250, 
@@ -40,11 +40,11 @@
         }, 
         {
             "order": 750, 
-            "stepKey": "performdeleteisosonesxihost"
+            "stepKey": "performdeleteisosonesxihostwithmacosorlinuxworkerlink"
         }, 
         {
             "order": 800, 
-            "stepKey": "performpostcleanuplink"
+            "stepKey": "performpostcleanuponmacosorlinuxworkerlink"
         }
     ], 
     "name": "Autounattend Windows Server 2016 (Win2016) UEFI WinPE ISO on macOS or Linux Worker for ESXi", 
