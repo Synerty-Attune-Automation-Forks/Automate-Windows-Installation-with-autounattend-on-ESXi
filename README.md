@@ -147,6 +147,9 @@ This Project contains the following Blueprints.
 ### Autounattend Windows Server 2022 (Win2022) UEFI WinPE ISO on macOS or Linux Worker for ESXi
 
 
+### Setup Windows Worker for ESXi
+
+
 
 
 

@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "404e97b2-efea-4bcb-ae13-4897fd7a05d9", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "9b1e4c64-ab82-4ac0-9d81-ff13b4ac427e", 
+    "key": "performinstallvmwarevimautomationcoreonwindowsworkerlink", 
+    "name": "Perform Install VMware.VimAutomation.Core on Windows Worker (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "8140ab94-a4a9-481f-8ab1-9ee055ef78be", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}
