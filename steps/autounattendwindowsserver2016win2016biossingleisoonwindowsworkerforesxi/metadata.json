@@ -1,0 +1,52 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "3eb5e6d3-ca77-4d63-970b-299e116ab2b2", 
+    "isBlueprint": true, 
+    "key": "autounattendwindowsserver2016win2016biossingleisoonwindowsworkerforesxi", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "performprecleanuponwindowsworkerlink"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "performdeployesxidriverstoadropdirectorywithwindowsworkerlink"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "createwin2016biosautounattendsingleisoonwindowsworker"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "buildwindowsserverbiosvirtualmachineonesxiwithwindowsworkerlink"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "winrmhttpswait60s"
+        }, 
+        {
+            "order": 600, 
+            "stepKey": "performtestwin2016biosnodelink"
+        }, 
+        {
+            "order": 700, 
+            "stepKey": "performtestifvmwaredriversinstalledlink"
+        }, 
+        {
+            "order": 850, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 950, 
+            "stepKey": "performpostcleanuponwindowsworkerlink"
+        }
+    ], 
+    "name": "Autounattend Windows Server 2016 (Win2016) BIOS Single ISO on Windows Worker for ESXi", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

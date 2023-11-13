@@ -4,9 +4,9 @@
     "blueprintUuid": "18af1c16-5ee0-4a2d-ae12-5e52aeb25287", 
     "cloneUrl": "", 
     "enabled": true, 
-    "externalUuid4": "ecd9b109-9d2c-4ebd-a92f-fab158e0d868", 
-    "key": "buildwindowsserverbiosvirtualmachineonesxilink", 
-    "name": "Build Windows Server BIOS Virtual Machine on ESXi (link)", 
+    "externalUuid4": "8454356d-0068-4885-a785-55e66f8f6d17", 
+    "key": "buildwindowsserveruefivirtualmachineonesxiwithmacosorlinuxworkerlink", 
+    "name": "Build Windows Server UEFI Virtual Machine on ESXi with macOS or Linux Worker (link)", 
     "parameterMap": [
         {
             "childParameterName": null, 
@@ -24,7 +24,7 @@
             "childProjectName": null, 
             "childProjectUuid": "8140ab94-a4a9-481f-8ab1-9ee055ef78be", 
             "parentParameterKey": null, 
-            "parentStaticTextValue": "false"
+            "parentStaticTextValue": "true"
         }, 
         {
             "childParameterName": null, 
@@ -33,7 +33,7 @@
             "childProjectName": null, 
             "childProjectUuid": "8140ab94-a4a9-481f-8ab1-9ee055ef78be", 
             "parentParameterKey": null, 
-            "parentStaticTextValue": "true"
+            "parentStaticTextValue": "false"
         }, 
         {
             "childParameterName": null, 

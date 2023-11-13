@@ -1,1 +1,1 @@
-Creates a BIOS ESXi virtual machine Windows Worker.
+Creates a Win10 BIOS ESXi virtual machine with Windows Worker.
