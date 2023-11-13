@@ -1,0 +1,52 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "e9acc73b-661a-4c7e-a5a9-5efcdb052975", 
+    "isBlueprint": true, 
+    "key": "autounattendwindows10win10uefisingleisoonwindowsworkerforesxi", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "performprecleanuponwindowsworkerlink"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "performdeployesxidriverstoadropdirectorywithwindowsworkerlink"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "createwin10uefiautounattendsingleisoonwindowsworkerlink"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "buildwin10uefivirtualmachineonesxiwithwindowsworkerlink"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "winrmhttpswait60s"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "performtestwin10uefinodelink"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "performtestifvmwaredriversinstalledlink"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "performpostcleanuponwindowsworkerlink"
+        }
+    ], 
+    "name": "Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

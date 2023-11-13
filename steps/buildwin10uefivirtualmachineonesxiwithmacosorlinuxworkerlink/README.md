@@ -1,0 +1,1 @@
+Creates a ESXi virtual machine with macOS or Linux Worker.
