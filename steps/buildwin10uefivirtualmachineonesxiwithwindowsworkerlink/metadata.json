@@ -1,12 +1,12 @@
 {
     "actionOnStepFail": "stop", 
     "blueprintName": "", 
-    "blueprintUuid": "18af1c16-5ee0-4a2d-ae12-5e52aeb25287", 
+    "blueprintUuid": "5e26771e-5582-4c78-9c31-3c3fe697c556", 
     "cloneUrl": "", 
     "enabled": true, 
-    "externalUuid4": "22e9bf41-0975-46f6-806e-cf0b7a94b0c6", 
-    "key": "buildwin10uefivirtualmachineonesxilink", 
-    "name": "Build Win10 UEFI Virtual Machine on ESXi (link)", 
+    "externalUuid4": "27199397-f475-4886-a7ce-f9b69cb37e95", 
+    "key": "buildwin10uefivirtualmachineonesxiwithwindowsworkerlink", 
+    "name": "Build Win10 UEFI Virtual Machine on ESXi with Windows Worker (link)", 
     "parameterMap": [
         {
             "childParameterName": null, 

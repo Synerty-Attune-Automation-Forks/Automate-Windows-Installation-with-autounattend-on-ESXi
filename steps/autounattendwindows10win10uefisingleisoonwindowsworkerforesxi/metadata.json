@@ -23,28 +23,28 @@
             "stepKey": "createwin10uefiautounattendsingleisoonwindowsworkerlink"
         }, 
         {
-            "order": 200, 
-            "stepKey": "buildwin10uefivirtualmachineonesxilink"
-        }, 
-        {
             "order": 250, 
-            "stepKey": "winrmhttpswait60s"
+            "stepKey": "buildwin10uefivirtualmachineonesxiwithwindowsworkerlink"
         }, 
         {
             "order": 300, 
-            "stepKey": "performtestwin10uefinodelink"
+            "stepKey": "winrmhttpswait60s"
         }, 
         {
             "order": 350, 
-            "stepKey": "performtestifvmwaredriversinstalledlink"
+            "stepKey": "performtestwin10uefinodelink"
         }, 
         {
             "order": 400, 
-            "stepKey": "performdeleteisosonesxihostwithmacosorlinuxworkerlink"
+            "stepKey": "performtestifvmwaredriversinstalledlink"
         }, 
         {
             "order": 450, 
-            "stepKey": "performpostcleanuponmacosorlinuxworkerlink"
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "performpostcleanuponwindowsworkerlink"
         }
     ], 
     "name": "Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi", 

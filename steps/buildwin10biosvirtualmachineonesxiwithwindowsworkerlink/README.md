@@ -1,1 +1,1 @@
-Creates a BIOS ESXi virtual machine.
+Creates a BIOS ESXi virtual machine Windows Worker.

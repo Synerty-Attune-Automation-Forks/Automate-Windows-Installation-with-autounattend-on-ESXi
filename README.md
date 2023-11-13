@@ -78,6 +78,9 @@ This Project contains the following Blueprints.
 1. Builds a Win10 UEFI Single ISO for macOS or Linux.
 2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
 
+### Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows 10 (Win10) UEFI WinPE ISO on macOS or Linux Worker for ESXi
 
 
@@ -148,9 +151,6 @@ This Project contains the following Blueprints.
 
 
 ### Setup Windows Worker for ESXi
-
-
-### Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi
 
 
 

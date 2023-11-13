@@ -238,8 +238,8 @@
         
 
                     <p class="text-muted pt-2">
-                        <a href="#buildwin10uefivirtualmachineonesxilink">
-                            <strong>Step 5 -</strong> Build Win10 UEFI Virtual Machine on ESXi (link)
+                        <a href="#buildwin10uefivirtualmachineonesxiwithwindowsworkerlink">
+                            <strong>Step 5 -</strong> Build Win10 UEFI Virtual Machine on ESXi with Windows Worker (link)
                         </a>
                     </p>
 
@@ -270,16 +270,16 @@
         
 
                     <p class="text-muted pt-2">
-                        <a href="#performdeleteisosonesxihostwithmacosorlinuxworkerlink">
-                            <strong>Step 9 -</strong> Perform Delete ISOs on ESXi Host with macOS or Linux Worker (link)
+                        <a href="#performdeleteisosonesxihostwithwindowsworkerlink">
+                            <strong>Step 9 -</strong> Perform Delete ISOs on ESXi Host with Windows Worker (link)
                         </a>
                     </p>
 
         
 
                     <p class="text-muted pt-2">
-                        <a href="#performpostcleanuponmacosorlinuxworkerlink">
-                            <strong>Step 10 -</strong> Perform Post Cleanup  on macOS or Linux Worker (Link)
+                        <a href="#performpostcleanuponwindowsworkerlink">
+                            <strong>Step 10 -</strong> Perform Post Cleanup on Windows Worker (Link)
                         </a>
                     </p>
 
@@ -473,6 +473,13 @@
                         </h3>
                     </div>
 
+                    <div class="row">
+                        <div class="description col px-0">
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
 
 
 
@@ -490,9 +497,9 @@
 
 
                     <div class="row pt-5">
-                        <h3 id="buildwin10uefivirtualmachineonesxilink">
-                            <a href="#buildwin10uefivirtualmachineonesxilink">
-                                <strong>Step 5 -</strong> Build Win10 UEFI Virtual Machine on ESXi (link)
+                        <h3 id="buildwin10uefivirtualmachineonesxiwithwindowsworkerlink">
+                            <a href="#buildwin10uefivirtualmachineonesxiwithwindowsworkerlink">
+                                <strong>Step 5 -</strong> Build Win10 UEFI Virtual Machine on ESXi with Windows Worker (link)
                             </a>
                         </h3>
                     </div>
@@ -500,7 +507,7 @@
                     <div class="row">
                         <div class="description col px-0">
                             <p>
-                                <p>Creates a ESXi virtual machine.</p>
+                                <p>Creates a ESXi virtual machine with Windows Worker.</p>
                             </p>
                         </div>
                     </div>
@@ -629,9 +636,9 @@
 
 
                     <div class="row pt-5">
-                        <h3 id="performdeleteisosonesxihostwithmacosorlinuxworkerlink">
-                            <a href="#performdeleteisosonesxihostwithmacosorlinuxworkerlink">
-                                <strong>Step 9 -</strong> Perform Delete ISOs on ESXi Host with macOS or Linux Worker (link)
+                        <h3 id="performdeleteisosonesxihostwithwindowsworkerlink">
+                            <a href="#performdeleteisosonesxihostwithwindowsworkerlink">
+                                <strong>Step 9 -</strong> Perform Delete ISOs on ESXi Host with Windows Worker (link)
                             </a>
                         </h3>
                     </div>
@@ -660,9 +667,9 @@
 
 
                     <div class="row pt-5">
-                        <h3 id="performpostcleanuponmacosorlinuxworkerlink">
-                            <a href="#performpostcleanuponmacosorlinuxworkerlink">
-                                <strong>Step 10 -</strong> Perform Post Cleanup  on macOS or Linux Worker (Link)
+                        <h3 id="performpostcleanuponwindowsworkerlink">
+                            <a href="#performpostcleanuponwindowsworkerlink">
+                                <strong>Step 10 -</strong> Perform Post Cleanup on Windows Worker (Link)
                             </a>
                         </h3>
                     </div>
@@ -670,7 +677,7 @@
                     <div class="row">
                         <div class="description col px-0">
                             <p>
-                                <p>Removes the directory <code>{automationWorkerLinuxBaseDirectory}/build-{newOsNode.fqn}</code> and ISO file at <code>{automationWorkerLinuxBaseDirectory}/kickstart_{newOsNode.fqn}.iso</code>. </p>
+                                <p>Removes the directory <code>{automationWorkerWindowsBaseDirectory}/build-{newOsNode.fqn}</code> and ISO file at <code>{automationWorkerWindowsBaseDirectory}/kickstart_{newOsNode.fqn}.iso</code>. </p>
 <p>Place <code>Perform Post Cleanup (Link)</code> after <code>Perform Delete ISOs on ESXi Host</code> so that <code>Perform Delete ISOs on ESXi Host</code> can detect dual ISO mode.</p>
                             </p>
                         </div>
