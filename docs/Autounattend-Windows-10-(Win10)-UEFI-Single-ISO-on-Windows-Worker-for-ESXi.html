@@ -6,13 +6,13 @@
 
 
 <head>
-    <title>How to Setup Windows Worker for ESXi - Attune Automation</title>
+    <title>How to Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi - Attune Automation</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="title"
-          content="How to Setup Windows Worker for ESXi - Attune Automation">
+          content="How to Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi - Attune Automation">
     <meta name="description"
           content="">
     <meta name="robots"
@@ -21,13 +21,13 @@
     <meta property="og:locale" content="en_AU" />
     <meta property="og:type" content="article" />
     <meta property="og:title"
-          content="HowTo Setup Windows Worker for ESXi - Attune Automation" />
+          content="HowTo Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi - Attune Automation" />
     <meta property="og:description" content="" />
     <meta property="og:site_name" content="Attune Automation" />
     <meta property="article:section" content="IT Instruction" />
 
     <meta name="twitter:title"
-          content="How to Setup Windows Worker for ESXi - Attune Automation" />
+          content="How to Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi - Attune Automation" />
     <meta name="twitter:description" content="" />
 
     <link rel="icon" href="https://www.servertribe.com/wp-content/uploads/2020/10/cropped-server_tribe_favicon-32x32.png" sizes="32x32">
@@ -119,7 +119,7 @@
                     </a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                    <strong>Setup Windows Worker for ESXi</strong>
+                    <strong>Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi</strong>
                 </li>
             </ol>
         </nav>
@@ -133,7 +133,7 @@
     <div class="row">
         <div class="col px-0">
             <h1 class="text-left">
-                How to Setup Windows Worker for ESXi
+                How to Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi
             </h1>
         </div>
     </div>
@@ -197,7 +197,7 @@
                     </p>
                     <p class="text-muted">
                         <a href="#top">
-                            <strong>Setup Windows Worker for ESXi</strong>
+                            <strong>Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi</strong>
                         </a>
                     </p>
 
@@ -206,8 +206,80 @@
         
 
                     <p class="text-muted pt-2">
-                        <a href="#performinstallvmwarevimautomationcoreonwindowsworkerlink">
-                            <strong>Step 1 -</strong> Perform Install VMware.VimAutomation.Core on Windows Worker (link)
+                        <a href="#performprecleanuponwindowsworkerlink">
+                            <strong>Step 1 -</strong> Perform Pre Cleanup on Windows Worker (link)
+                        </a>
+                    </p>
+
+        
+
+                    <p class="text-muted pt-2">
+                        <a href="#performdeleteisosonesxihostwithwindowsworkerlink">
+                            <strong>Step 2 -</strong> Perform Delete ISOs on ESXi Host with Windows Worker (link)
+                        </a>
+                    </p>
+
+        
+
+                    <p class="text-muted pt-2">
+                        <a href="#performdeployesxidriverstoadropdirectorywithwindowsworkerlink">
+                            <strong>Step 3 -</strong> Perform Deploy ESXi Drivers to a Drop Directory with Windows Worker (link)
+                        </a>
+                    </p>
+
+        
+
+                    <p class="text-muted pt-2">
+                        <a href="#createwin10uefiautounattendsingleisoonwindowsworkerlink">
+                            <strong>Step 4 -</strong> Create Win10 UEFI autounattend Single ISO on Windows Worker (link)
+                        </a>
+                    </p>
+
+        
+
+                    <p class="text-muted pt-2">
+                        <a href="#buildwin10uefivirtualmachineonesxilink">
+                            <strong>Step 5 -</strong> Build Win10 UEFI Virtual Machine on ESXi (link)
+                        </a>
+                    </p>
+
+        
+
+                    <p class="text-muted pt-2">
+                        <a href="#winrmhttpswait60s">
+                            <strong>Step 6 -</strong> WinRM HTTPS Wait 60s
+                        </a>
+                    </p>
+
+        
+
+                    <p class="text-muted pt-2">
+                        <a href="#performtestwin10uefinodelink">
+                            <strong>Step 7 -</strong> Perform Test Win10 UEFI Node (link)
+                        </a>
+                    </p>
+
+        
+
+                    <p class="text-muted pt-2">
+                        <a href="#performtestifvmwaredriversinstalledlink">
+                            <strong>Step 8 -</strong> Perform Test if VMWare Drivers Installed (link)
+                        </a>
+                    </p>
+
+        
+
+                    <p class="text-muted pt-2">
+                        <a href="#performdeleteisosonesxihostwithmacosorlinuxworkerlink">
+                            <strong>Step 9 -</strong> Perform Delete ISOs on ESXi Host with macOS or Linux Worker (link)
+                        </a>
+                    </p>
+
+        
+
+                    <p class="text-muted pt-2">
+                        <a href="#performpostcleanuponmacosorlinuxworkerlink">
+                            <strong>Step 10 -</strong> Perform Post Cleanup  on macOS or Linux Worker (Link)
                         </a>
                     </p>
 
@@ -270,7 +342,7 @@
                 </ol>
             </p>
             <p class="lead text-center">
-                You've automated: <strong>Setup Windows Worker for ESXi</strong>
+                You've automated: <strong>Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi</strong>
             </p>
             <hr class="my-4 text-center">
             <div class="col px-0">
@@ -301,9 +373,9 @@
 
 
                     <div class="row pt-5">
-                        <h3 id="performinstallvmwarevimautomationcoreonwindowsworkerlink">
-                            <a href="#performinstallvmwarevimautomationcoreonwindowsworkerlink">
-                                <strong>Step 1 -</strong> Perform Install VMware.VimAutomation.Core on Windows Worker (link)
+                        <h3 id="performprecleanuponwindowsworkerlink">
+                            <a href="#performprecleanuponwindowsworkerlink">
+                                <strong>Step 1 -</strong> Perform Pre Cleanup on Windows Worker (link)
                             </a>
                         </h3>
                     </div>
@@ -312,6 +384,294 @@
                         <div class="description col px-0">
                             <p>
                                 
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+
+
+                    <div class="row pt-5">
+                        <h3 id="performdeleteisosonesxihostwithwindowsworkerlink">
+                            <a href="#performdeleteisosonesxihostwithwindowsworkerlink">
+                                <strong>Step 2 -</strong> Perform Delete ISOs on ESXi Host with Windows Worker (link)
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="description col px-0">
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+
+
+                    <div class="row pt-5">
+                        <h3 id="performdeployesxidriverstoadropdirectorywithwindowsworkerlink">
+                            <a href="#performdeployesxidriverstoadropdirectorywithwindowsworkerlink">
+                                <strong>Step 3 -</strong> Perform Deploy ESXi Drivers to a Drop Directory with Windows Worker (link)
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="description col px-0">
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+
+
+                    <div class="row pt-5">
+                        <h3 id="createwin10uefiautounattendsingleisoonwindowsworkerlink">
+                            <a href="#createwin10uefiautounattendsingleisoonwindowsworkerlink">
+                                <strong>Step 4 -</strong> Create Win10 UEFI autounattend Single ISO on Windows Worker (link)
+                            </a>
+                        </h3>
+                    </div>
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+
+
+                    <div class="row pt-5">
+                        <h3 id="buildwin10uefivirtualmachineonesxilink">
+                            <a href="#buildwin10uefivirtualmachineonesxilink">
+                                <strong>Step 5 -</strong> Build Win10 UEFI Virtual Machine on ESXi (link)
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="description col px-0">
+                            <p>
+                                <p>Creates a ESXi virtual machine.</p>
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+
+
+                    <div class="row pt-5">
+                        <h3 id="winrmhttpswait60s">
+                            <a href="#winrmhttpswait60s">
+                                <strong>Step 6 -</strong> WinRM HTTPS Wait 60s
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="description col px-0">
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <div class="row">
+        <p class="mb-0">
+            Check if TCP Port <strong>0</strong> is listening.
+            When the TCP Port is up, wait <strong>60</strong>
+            seconds.
+        </p>
+        <p>Use Telnet to check if the TCP Service is accepting connections.</p>
+    </div>
+
+
+
+
+
+        
+
+
+
+                    <div class="row pt-5">
+                        <h3 id="performtestwin10uefinodelink">
+                            <a href="#performtestwin10uefinodelink">
+                                <strong>Step 7 -</strong> Perform Test Win10 UEFI Node (link)
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="description col px-0">
+                            <p>
+                                <p>Perform basic tests for Win10 UEFI.</p>
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+
+
+                    <div class="row pt-5">
+                        <h3 id="performtestifvmwaredriversinstalledlink">
+                            <a href="#performtestifvmwaredriversinstalledlink">
+                                <strong>Step 8 -</strong> Perform Test if VMWare Drivers Installed (link)
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="description col px-0">
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+
+
+                    <div class="row pt-5">
+                        <h3 id="performdeleteisosonesxihostwithmacosorlinuxworkerlink">
+                            <a href="#performdeleteisosonesxihostwithmacosorlinuxworkerlink">
+                                <strong>Step 9 -</strong> Perform Delete ISOs on ESXi Host with macOS or Linux Worker (link)
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="description col px-0">
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+
+
+                    <div class="row pt-5">
+                        <h3 id="performpostcleanuponmacosorlinuxworkerlink">
+                            <a href="#performpostcleanuponmacosorlinuxworkerlink">
+                                <strong>Step 10 -</strong> Perform Post Cleanup  on macOS or Linux Worker (Link)
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="description col px-0">
+                            <p>
+                                <p>Removes the directory <code>{automationWorkerLinuxBaseDirectory}/build-{newOsNode.fqn}</code> and ISO file at <code>{automationWorkerLinuxBaseDirectory}/kickstart_{newOsNode.fqn}.iso</code>. </p>
+<p>Place <code>Perform Post Cleanup (Link)</code> after <code>Perform Delete ISOs on ESXi Host</code> so that <code>Perform Delete ISOs on ESXi Host</code> can detect dual ISO mode.</p>
                             </p>
                         </div>
                     </div>
