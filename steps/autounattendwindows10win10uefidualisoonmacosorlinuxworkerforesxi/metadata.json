@@ -20,7 +20,7 @@
         }, 
         {
             "order": 300, 
-            "stepKey": "createwin10uefiautounattenddualisoonmacosorlinux"
+            "stepKey": "createwin10uefiautounattenddualisoonmacosorlinuxworkerlink"
         }, 
         {
             "order": 400, 
