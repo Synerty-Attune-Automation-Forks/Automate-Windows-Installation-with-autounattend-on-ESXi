@@ -27,10 +27,6 @@
             "stepKey": "buildwindowsserverbiosvirtualmachineonesxiwithwindowsworkerlink"
         }, 
         {
-            "order": 450, 
-            "stepKey": "buildwindowsserveruefivirtualmachineonesxiwithwindowsworkerlink"
-        }, 
-        {
             "order": 500, 
             "stepKey": "winrmhttpswait60s"
         }, 
