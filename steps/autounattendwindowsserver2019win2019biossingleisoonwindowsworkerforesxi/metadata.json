@@ -1,0 +1,52 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "beb0103c-0ffb-4a1a-babc-4e789e0b68a5", 
+    "isBlueprint": true, 
+    "key": "autounattendwindowsserver2019win2019biossingleisoonwindowsworkerforesxi", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "performprecleanuponwindowsworkerlink"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "performdeployesxidriverstoadropdirectorywithwindowsworkerlink"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "createwin2019biosautounattendsingleisoonwindowsworkerlink"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "buildwindowsserverbiosvirtualmachineonesxiwithwindowsworkerlink"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "winrmhttpswait60s"
+        }, 
+        {
+            "order": 650, 
+            "stepKey": "performtestwin2019biosnodelink"
+        }, 
+        {
+            "order": 700, 
+            "stepKey": "performtestifvmwaredriversinstalledlink"
+        }, 
+        {
+            "order": 850, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 950, 
+            "stepKey": "performpostcleanuponwindowsworkerlink"
+        }
+    ], 
+    "name": "Autounattend Windows Server 2019 (Win2019) BIOS Single ISO on Windows Worker for ESXi", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

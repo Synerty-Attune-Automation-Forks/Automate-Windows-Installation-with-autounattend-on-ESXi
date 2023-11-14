@@ -1,1 +1,1 @@
-Creates a ESXi virtual machine with macOS or Linux Worker.
+Creates a Win10 UEFI ESXi virtual machine with macOS or Linux Worker.

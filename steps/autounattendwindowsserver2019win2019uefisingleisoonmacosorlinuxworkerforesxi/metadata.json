@@ -24,7 +24,7 @@
         }, 
         {
             "order": 350, 
-            "stepKey": "buildwindowsserveruefivirtualmachineonesxilink"
+            "stepKey": "buildwindowsserveruefivirtualmachineonesxiwithmacosorlinuxworkerlink"
         }, 
         {
             "order": 400, 
