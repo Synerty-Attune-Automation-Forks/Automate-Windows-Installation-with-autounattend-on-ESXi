@@ -1,0 +1,52 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "f5ae1376-26e3-4e78-bc9f-ec090f58f461", 
+    "isBlueprint": true, 
+    "key": "autounattendwindows10win10biosdualisoonwindowsworkerforesxi", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "performprecleanuponwindowsworkerlink"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "performdeployesxidriverstoadropdirectorywithwindowsworkerlink"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "createwin10biosautounattenddualisoonwindowsworkerlink"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "buildwin10biosvirtualmachineonesxiwithwindowsworkerlink"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "winrmhttpswait60s"
+        }, 
+        {
+            "order": 600, 
+            "stepKey": "performtestwin10biosnodelink"
+        }, 
+        {
+            "order": 700, 
+            "stepKey": "performtestifvmwaredriversinstalledlink"
+        }, 
+        {
+            "order": 850, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 950, 
+            "stepKey": "performpostcleanuponwindowsworkerlink"
+        }
+    ], 
+    "name": "Autounattend Windows 10 (Win10) BIOS Dual ISO on Windows Worker for ESXi", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
