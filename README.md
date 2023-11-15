@@ -209,6 +209,30 @@ This Project contains the following Blueprints.
 ### Setup Windows Worker for ESXi
 
 
+### Autounattend Windows 10 (Win10) BIOS WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows 10 (Win10) UEFI WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2016 (Win2016) BIOS WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2016 (Win2016) UEFI WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2019 (Win2019) BIOS WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2019 (Win2019) UEFI WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2022 (Win2022) BIOS WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2022 (Win2022) UEFI WinPE ISO on Windows Worker for ESXi
+
+
 
 
 
