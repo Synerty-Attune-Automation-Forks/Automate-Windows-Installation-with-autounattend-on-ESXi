@@ -57,6 +57,9 @@ This Project contains the following Blueprints.
 ### Autounattend Windows 10 (Win10) BIOS Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows 10 (Win10) BIOS Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows 10 (Win10) BIOS Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win10 BIOS Single ISO on macOS or Linux.
@@ -71,6 +74,9 @@ This Project contains the following Blueprints.
 
 
 ### Autounattend Windows 10 (Win10) UEFI Dual ISO on macOS or Linux Worker for ESXi
+
+
+### Autounattend Windows 10 (Win10) UEFI Dual ISO on Windows Worker for ESXi
 
 
 ### Autounattend Windows 10 (Win10) UEFI Single ISO on macOS or Linux Worker for ESXi
@@ -89,6 +95,9 @@ This Project contains the following Blueprints.
 ### Autounattend Windows Server 2016 (Win2016) BIOS Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows Server 2016 (Win2016) BIOS Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows Server 2016 (Win2016) BIOS Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win2016 BIOS Single ISO for macOS or Linux.
@@ -103,6 +112,9 @@ This Project contains the following Blueprints.
 
 
 ### Autounattend Windows Server 2016 (Win2016) UEFI Dual ISO on macOS or Linux Worker for ESXi
+
+
+### Autounattend Windows Server 2016 (Win2016) UEFI Dual ISO on Windows Worker for ESXi
 
 
 ### Autounattend Windows Server 2016 (Win2016) UEFI Single ISO on macOS or Linux Worker for ESXi
@@ -121,6 +133,9 @@ This Project contains the following Blueprints.
 ### Autounattend Windows Server 2019 (Win2019) BIOS Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows Server 2019 (Win2019) BIOS Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows Server 2019 (Win2019) BIOS Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win2019 BIOS Single ISO for macOS or Linux.
@@ -135,6 +150,9 @@ This Project contains the following Blueprints.
 
 
 ### Autounattend Windows Server 2019 (Win2019) UEFI Dual ISO on macOS or Linux Worker for ESXi
+
+
+### Autounattend Windows Server 2019 (Win2019) UEFI Dual ISO on Windows Worker for ESXi
 
 
 ### Autounattend Windows Server 2019 (Win2019) UEFI Single ISO on macOS or Linux Worker for ESXi
@@ -153,6 +171,9 @@ This Project contains the following Blueprints.
 ### Autounattend Windows Server 2022 (Win2022) BIOS Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows Server 2022 (Win2022) BIOS Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows Server 2022 (Win2022) BIOS Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win2022 BIOS Single ISO for macOS or Linux.
@@ -169,6 +190,9 @@ This Project contains the following Blueprints.
 ### Autounattend Windows Server 2022 (Win2022) UEFI Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows Server 2022 (Win2022) UEFI Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows Server 2022 (Win2022) UEFI Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win2022 UEFI Single ISO for macOS or Linux.
@@ -183,30 +207,6 @@ This Project contains the following Blueprints.
 
 
 ### Setup Windows Worker for ESXi
-
-
-### Autounattend Windows 10 (Win10) BIOS Dual ISO on Windows Worker for ESXi
-
-
-### Autounattend Windows 10 (Win10) UEFI Dual ISO on Windows Worker for ESXi
-
-
-### Autounattend Windows Server 2016 (Win2016) BIOS Dual ISO on Windows Worker for ESXi
-
-
-### Autounattend Windows Server 2016 (Win2016) UEFI Dual ISO on Windows Worker for ESXi
-
-
-### Autounattend Windows Server 2019 (Win2019) BIOS Dual ISO on Windows Worker for ESXi
-
-
-### Autounattend Windows Server 2019 (Win2019) UEFI Dual ISO on Windows Worker for ESXi
-
-
-### Autounattend Windows Server 2022 (Win2022) BIOS Dual ISO on Windows Worker for ESXi
-
-
-### Autounattend Windows Server 2022 (Win2022) UEFI Dual ISO on Windows Worker for ESXi
 
 
 
