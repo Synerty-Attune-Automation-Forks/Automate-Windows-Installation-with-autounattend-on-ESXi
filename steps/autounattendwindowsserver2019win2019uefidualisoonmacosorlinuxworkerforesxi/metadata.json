@@ -20,11 +20,11 @@
         }, 
         {
             "order": 250, 
-            "stepKey": "createwin2019uefiautounattenddualisoonmacosorlinux"
+            "stepKey": "createwin2019uefiautounattenddualisoonmacosorlinuxworkerlink"
         }, 
         {
             "order": 300, 
-            "stepKey": "buildwindowsserveruefivirtualmachineonesxilink"
+            "stepKey": "buildwindowsserveruefivirtualmachineonesxiwithmacosorlinuxworkerlink"
         }, 
         {
             "order": 400, 

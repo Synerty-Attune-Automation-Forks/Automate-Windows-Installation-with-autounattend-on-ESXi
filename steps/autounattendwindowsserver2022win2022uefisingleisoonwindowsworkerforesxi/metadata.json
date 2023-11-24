@@ -1,0 +1,52 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "93e96a2b-95f5-4b01-beae-bc518b15fffb", 
+    "isBlueprint": true, 
+    "key": "autounattendwindowsserver2022win2022uefisingleisoonwindowsworkerforesxi", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "performprecleanuponwindowsworkerlink"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "performdeployesxidriverstoadropdirectorywithwindowsworkerlink"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "createwin2022uefiautounattendsingleisoonwindowsworkerlink"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "buildwindowsserveruefivirtualmachineonesxiwithwindowsworkerlink"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "winrmhttpswait60s"
+        }, 
+        {
+            "order": 650, 
+            "stepKey": "performtestwin2022uefinodelink"
+        }, 
+        {
+            "order": 700, 
+            "stepKey": "performtestifvmwaredriversinstalledlink"
+        }, 
+        {
+            "order": 800, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 900, 
+            "stepKey": "performpostcleanuponwindowsworkerlink"
+        }
+    ], 
+    "name": "Autounattend Windows Server 2022 (Win2022) UEFI Single ISO on Windows Worker for ESXi", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

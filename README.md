@@ -57,6 +57,9 @@ This Project contains the following Blueprints.
 ### Autounattend Windows 10 (Win10) BIOS Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows 10 (Win10) BIOS Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows 10 (Win10) BIOS Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win10 BIOS Single ISO on macOS or Linux.
@@ -73,10 +76,18 @@ This Project contains the following Blueprints.
 ### Autounattend Windows 10 (Win10) UEFI Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows 10 (Win10) UEFI Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows 10 (Win10) UEFI Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win10 UEFI Single ISO for macOS or Linux.
 2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
+
+### Autounattend Windows 10 (Win10) UEFI Single ISO on Windows Worker for ESXi
+
+1. Builds a Win10 UEFI Single ISO on Windows worker.
+2. Creates an ESXi node and boots to CD ROM running the unattended installer.
 
 ### Autounattend Windows 10 (Win10) UEFI WinPE ISO on macOS or Linux Worker for ESXi
 
@@ -84,9 +95,17 @@ This Project contains the following Blueprints.
 ### Autounattend Windows Server 2016 (Win2016) BIOS Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows Server 2016 (Win2016) BIOS Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows Server 2016 (Win2016) BIOS Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win2016 BIOS Single ISO for macOS or Linux.
+2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
+
+### Autounattend Windows Server 2016 (Win2016) BIOS Single ISO on Windows Worker for ESXi
+
+1. Builds a Win2016 BIOS Single ISO on Windows Worker.
 2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
 
 ### Autounattend Windows Server 2016 (Win2016) BIOS WinPE ISO on macOS or Linux Worker for ESXi
@@ -95,9 +114,17 @@ This Project contains the following Blueprints.
 ### Autounattend Windows Server 2016 (Win2016) UEFI Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows Server 2016 (Win2016) UEFI Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows Server 2016 (Win2016) UEFI Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win2016 UEFI Single ISO for macOS or Linux.
+2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
+
+### Autounattend Windows Server 2016 (Win2016) UEFI Single ISO on Windows Worker for ESXi
+
+1. Builds a Win2016 UEFI Single ISO for Windows Worker.
 2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
 
 ### Autounattend Windows Server 2016 (Win2016) UEFI WinPE ISO on macOS or Linux Worker for ESXi
@@ -106,7 +133,15 @@ This Project contains the following Blueprints.
 ### Autounattend Windows Server 2019 (Win2019) BIOS Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows Server 2019 (Win2019) BIOS Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows Server 2019 (Win2019) BIOS Single ISO on macOS or Linux Worker for ESXi
+
+1. Builds a Win2019 BIOS Single ISO for macOS or Linux.
+2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
+
+### Autounattend Windows Server 2019 (Win2019) BIOS Single ISO on Windows Worker for ESXi
 
 1. Builds a Win2019 BIOS Single ISO for macOS or Linux.
 2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
@@ -117,9 +152,17 @@ This Project contains the following Blueprints.
 ### Autounattend Windows Server 2019 (Win2019) UEFI Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows Server 2019 (Win2019) UEFI Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows Server 2019 (Win2019) UEFI Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win2019 UEFI Single ISO for macOS or Linux.
+2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
+
+### Autounattend Windows Server 2019 (Win2019) UEFI Single ISO on Windows Worker for ESXi
+
+1. Builds a Win2019 UEFI Single ISO for Windows worker.
 2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
 
 ### Autounattend Windows Server 2019 (Win2019) UEFI WinPE ISO on macOS or Linux Worker for ESXi
@@ -128,9 +171,17 @@ This Project contains the following Blueprints.
 ### Autounattend Windows Server 2022 (Win2022) BIOS Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows Server 2022 (Win2022) BIOS Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows Server 2022 (Win2022) BIOS Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win2022 BIOS Single ISO for macOS or Linux.
+2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
+
+### Autounattend Windows Server 2022 (Win2022) BIOS Single ISO on Windows Worker for ESXi
+
+1. Builds a Win2022 BIOS Single ISO with Windows Worker.
 2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
 
 ### Autounattend Windows Server 2022 (Win2022) BIOS WinPE ISO on macOS or Linux Worker for ESXi
@@ -139,15 +190,47 @@ This Project contains the following Blueprints.
 ### Autounattend Windows Server 2022 (Win2022) UEFI Dual ISO on macOS or Linux Worker for ESXi
 
 
+### Autounattend Windows Server 2022 (Win2022) UEFI Dual ISO on Windows Worker for ESXi
+
+
 ### Autounattend Windows Server 2022 (Win2022) UEFI Single ISO on macOS or Linux Worker for ESXi
 
 1. Builds a Win2022 UEFI Single ISO for macOS or Linux.
+2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
+
+### Autounattend Windows Server 2022 (Win2022) UEFI Single ISO on Windows Worker for ESXi
+
+1. Builds a Win2022 UEFI Single ISO with Windows Worker
 2. Creates an ESXi node and boots to CD ROM running the unattended installer. 
 
 ### Autounattend Windows Server 2022 (Win2022) UEFI WinPE ISO on macOS or Linux Worker for ESXi
 
 
 ### Setup Windows Worker for ESXi
+
+
+### Autounattend Windows 10 (Win10) BIOS WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows 10 (Win10) UEFI WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2016 (Win2016) BIOS WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2016 (Win2016) UEFI WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2019 (Win2019) BIOS WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2019 (Win2019) UEFI WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2022 (Win2022) BIOS WinPE ISO on Windows Worker for ESXi
+
+
+### Autounattend Windows Server 2022 (Win2022) UEFI WinPE ISO on Windows Worker for ESXi
 
 
 

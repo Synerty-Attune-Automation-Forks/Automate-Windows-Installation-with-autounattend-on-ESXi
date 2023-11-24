@@ -20,11 +20,11 @@
         }, 
         {
             "order": 200, 
-            "stepKey": "createwin10uefiautounattendwinpeisoonmacosorlinuxworker"
+            "stepKey": "createwin10uefiautounattendwinpeisoonmacosorlinuxworkerlink"
         }, 
         {
             "order": 250, 
-            "stepKey": "buildwin10uefivirtualmachineonesxilink"
+            "stepKey": "buildwin10uefivirtualmachineonesxiwithmacosorlinuxworkerlink"
         }, 
         {
             "order": 300, 

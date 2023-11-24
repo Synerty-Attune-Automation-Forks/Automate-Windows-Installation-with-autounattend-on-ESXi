@@ -1,0 +1,1 @@
+Creates a Win10 UEFI ESXi virtual machine with Windows Worker.

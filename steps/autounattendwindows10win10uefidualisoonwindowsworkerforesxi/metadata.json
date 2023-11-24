@@ -1,0 +1,52 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "359bc045-64da-4bf6-b60a-173909ac3236", 
+    "isBlueprint": true, 
+    "key": "autounattendwindows10win10uefidualisoonwindowsworkerforesxi", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "performprecleanuponwindowsworkerlink"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "performdeployesxidriverstoadropdirectorywithwindowsworkerlink"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "createwin10uefiautounattenddualisoonwindowsworkerlink"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "buildwin10uefivirtualmachineonesxiwithwindowsworkerlink"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "winrmhttpswait60s"
+        }, 
+        {
+            "order": 650, 
+            "stepKey": "performtestwin10uefinodelink"
+        }, 
+        {
+            "order": 700, 
+            "stepKey": "performtestifvmwaredriversinstalledlink"
+        }, 
+        {
+            "order": 800, 
+            "stepKey": "performdeleteisosonesxihostwithwindowsworkerlink"
+        }, 
+        {
+            "order": 900, 
+            "stepKey": "performpostcleanuponwindowsworkerlink"
+        }
+    ], 
+    "name": "Autounattend Windows 10 (Win10) UEFI Dual ISO on Windows Worker for ESXi", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

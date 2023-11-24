@@ -1,0 +1,1 @@
+Creates a Windows Server BIOS ESXi virtual machine with Windows Worker.

@@ -20,11 +20,11 @@
         }, 
         {
             "order": 250, 
-            "stepKey": "createwin2016biosautounattenddualisoonmacosorlinux"
+            "stepKey": "createwin2016biosautounattenddualisoonmacosorlinuxworkerlink"
         }, 
         {
             "order": 350, 
-            "stepKey": "buildwindowsserverbiosvirtualmachineonesxilink"
+            "stepKey": "buildwindowsserverbiosvirtualmachineonesxiwithmacosorlinuxworkerlink"
         }, 
         {
             "order": 400, 
