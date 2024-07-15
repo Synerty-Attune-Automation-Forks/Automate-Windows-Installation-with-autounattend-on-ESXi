@@ -1,12 +1,12 @@
 {
     "actionOnStepFail": "stop", 
     "blueprintName": null, 
-    "blueprintUuid": "87ff3764-59d7-4033-adce-c208a4d5bd2f", 
-    "cloneUrl": "", 
+    "blueprintUuid": "4965a849-342d-4e58-be9b-7181343d65ff", 
+    "cloneUrl": null, 
     "enabled": true, 
-    "externalUuid4": "83ec0fcf-57a3-44d5-b285-647ead33be73", 
-    "key": "performprecleanuponmacosorlinuxworkerlink", 
-    "name": "Perform Pre Cleanup on macOS or Linux Worker (link)", 
+    "externalUuid4": "1e0acf71-cb75-4dd5-b0c1-160c8f5ed89a", 
+    "key": "deployrebootpowershellonmacosorlinuxworkerlink", 
+    "name": "Deploy Reboot Powershell on macOS or Linux Worker (Link)", 
     "parameterMap": [
         {
             "childParameterName": null, 

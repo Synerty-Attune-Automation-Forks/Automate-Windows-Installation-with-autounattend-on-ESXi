@@ -1,0 +1,36 @@
+{
+    "actionOnStepFail": "stop", 
+    "blueprintName": null, 
+    "blueprintUuid": "aeced3e6-b3d5-4ce5-8b81-83521128170a", 
+    "cloneUrl": null, 
+    "enabled": true, 
+    "externalUuid4": "c6fc86aa-8a07-4484-80fc-8210d228503b", 
+    "key": "deployvmfromtemplateonmacosorlinuxworkerlink", 
+    "name": "Deploy VM From Template on macOS or Linux Worker (link)", 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Server", 
+            "childParameterUuid": "7116171b-6cab-412b-b2c3-cdbf063a7ace", 
+            "childProjectName": null, 
+            "childProjectUuid": "8140ab94-a4a9-481f-8ab1-9ee055ef78be", 
+            "childProjectVersion": "master", 
+            "parentParameterKey": "newoswindowsnode", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Ip4Subnet", 
+            "childParameterUuid": "c386d780-e020-4f71-8915-b3ea7443bfdd", 
+            "childProjectName": null, 
+            "childProjectUuid": "8140ab94-a4a9-481f-8ab1-9ee055ef78be", 
+            "childProjectVersion": "master", 
+            "parentParameterKey": "newosnodesubnet", 
+            "parentStaticTextValue": null
+        }
+    ], 
+    "projectName": null, 
+    "projectUuid": "8140ab94-a4a9-481f-8ab1-9ee055ef78be", 
+    "projectVersion": "master", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

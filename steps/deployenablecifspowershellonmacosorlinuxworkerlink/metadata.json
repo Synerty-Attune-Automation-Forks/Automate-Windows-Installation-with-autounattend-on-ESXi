@@ -1,12 +1,12 @@
 {
     "actionOnStepFail": "stop", 
     "blueprintName": null, 
-    "blueprintUuid": "87ff3764-59d7-4033-adce-c208a4d5bd2f", 
-    "cloneUrl": "", 
+    "blueprintUuid": "286da856-0cef-48d0-9901-bdfce45fc5b1", 
+    "cloneUrl": null, 
     "enabled": true, 
-    "externalUuid4": "83ec0fcf-57a3-44d5-b285-647ead33be73", 
-    "key": "performprecleanuponmacosorlinuxworkerlink", 
-    "name": "Perform Pre Cleanup on macOS or Linux Worker (link)", 
+    "externalUuid4": "ac438762-c10d-4f68-8c4a-6c3ec8b0e48c", 
+    "key": "deployenablecifspowershellonmacosorlinuxworkerlink", 
+    "name": "Deploy Enable CIFS Powershell on macOS or Linux Worker (Link)", 
     "parameterMap": [
         {
             "childParameterName": null, 
