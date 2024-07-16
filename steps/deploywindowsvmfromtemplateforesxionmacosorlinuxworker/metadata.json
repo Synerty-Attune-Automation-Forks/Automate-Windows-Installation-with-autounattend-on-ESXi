@@ -1,0 +1,36 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "19c8ba86-d430-41b5-8026-624298d18e04", 
+    "isBlueprint": true, 
+    "key": "deploywindowsvmfromtemplateforesxionmacosorlinuxworker", 
+    "links": [
+        {
+            "stepKey": "performprecleanuponmacosorlinuxworkerlink"
+        }, 
+        {
+            "stepKey": "deploycheckfunctionspowershellonmacosorlinuxworkerlink"
+        }, 
+        {
+            "stepKey": "deployenablewinrmpowershellonmacosorlinuxworkerlink"
+        }, 
+        {
+            "stepKey": "deployenablecifspowershellonmacosorlinuxworkerlink"
+        }, 
+        {
+            "stepKey": "deployrebootpowershellonmacosorlinuxworkerlink"
+        }, 
+        {
+            "stepKey": "deployvmfromtemplateonmacosorlinuxworkerlink"
+        }, 
+        {
+            "stepKey": "winrmhttpswait60s"
+        }, 
+        {
+            "stepKey": "performprecleanuponmacosorlinuxworkerlink"
+        }
+    ], 
+    "name": "Deploy Windows VM from Template for ESXi on macOS or Linux Worker", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

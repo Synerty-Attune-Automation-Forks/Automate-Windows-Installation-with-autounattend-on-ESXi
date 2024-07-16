@@ -1,5 +1,5 @@
 {
-    "actionOnStepFail": null, 
+    "actionOnStepFail": "stop", 
     "enabled": true, 
     "externalUuid4": "e81b2c7a-1edf-4339-8b4e-2310711b7e45", 
     "key": "winrmhttpswait60s", 
@@ -7,7 +7,7 @@
     "name": "WinRM HTTPS Wait 60s", 
     "postWait": 60, 
     "preWait": 0, 
-    "serverKey": "newosnode", 
+    "serverKey": "newoswindowsnode", 
     "tcpPort": 5986, 
     "type": "com.servertribe.attune.tuples.StepTcpPingTuple"
 }
