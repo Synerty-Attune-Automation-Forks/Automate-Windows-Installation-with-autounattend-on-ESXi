@@ -1,0 +1,36 @@
+{
+    "actionOnStepFail": "stop", 
+    "blueprintName": null, 
+    "blueprintUuid": "100a17b3-3c9c-409f-afb6-062465aa256d", 
+    "cloneUrl": null, 
+    "enabled": true, 
+    "externalUuid4": "d73543be-8555-4cfb-a3e6-98435cac58b4", 
+    "key": "deploysetdnssearchsuffixpowershellonmacosorlinuxworkerlink", 
+    "name": "Deploy Set DNS Search Suffix Powershell on macOS or Linux Worker (Link)", 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Server", 
+            "childParameterUuid": "7116171b-6cab-412b-b2c3-cdbf063a7ace", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "childProjectVersion": "master", 
+            "parentParameterKey": "newoswindowsnode", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.WindowsServer", 
+            "childParameterUuid": "d96348b5-4dd3-482d-a154-1fed7ea8e465", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "childProjectVersion": "master", 
+            "parentParameterKey": "newoswindowsnode", 
+            "parentStaticTextValue": null
+        }
+    ], 
+    "projectName": null, 
+    "projectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+    "projectVersion": "master", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}
