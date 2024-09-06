@@ -1,0 +1,26 @@
+{
+    "actionOnStepFail": "stop", 
+    "blueprintName": null, 
+    "blueprintUuid": "6c428a90-bd9b-472e-a46a-3e7cbe6d002f", 
+    "cloneUrl": null, 
+    "enabled": true, 
+    "externalUuid4": "b1bd5a73-4f95-46fb-a504-a16c2089ea72", 
+    "key": "deploysetadminpasswordpowershellonmacosorlinuxworkerlink", 
+    "name": "Deploy Set Admin Password Powershell on macOS or Linux Worker (Link)", 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Server", 
+            "childParameterUuid": "7116171b-6cab-412b-b2c3-cdbf063a7ace", 
+            "childProjectName": null, 
+            "childProjectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+            "childProjectVersion": "master", 
+            "parentParameterKey": "newoswindowsnode", 
+            "parentStaticTextValue": null
+        }
+    ], 
+    "projectName": null, 
+    "projectUuid": "05c41adc-9b4e-49f9-b72c-aa4ee4a0cf27", 
+    "projectVersion": "master", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}
